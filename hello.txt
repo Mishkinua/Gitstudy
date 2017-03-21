@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+HOST: www.asozykin.ru
+
+GET /index.php HTTP/1.1
+HOST: www.asozykin.ru
+Connection: close
+
+GET /index.php HTTP/1.1
+Host: www.iamir.info
+Connection: close
+
+GET / HTTP/1.1
+HOST: www.berdychiv.com.ua
